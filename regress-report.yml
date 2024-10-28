@@ -34,7 +34,7 @@ test-cases:
 
   - summary: |
       Проверка оформления заказа
-  status: fail
+  status: pass
 
   - summary: |
       Проверка совместимости с разными браузерами
