@@ -4,7 +4,8 @@ summary: |
 requirement: |
   Форма поиска должна корректно обрабатывать ввод ключевых слов
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Ключевое слово 
 steps:
@@ -17,7 +18,8 @@ requirement: |
   Пользователь должен иметь возможность фильтровать товары по
   категориям 
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Фильтрация по категории 
 steps:
@@ -30,7 +32,8 @@ requirement: |
   Пользователь должен иметь возможность фильтровать товары по цене
   (например, от 10$ до 100$)
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Фильтрация по цене 
 steps:
@@ -42,7 +45,8 @@ summary: |
 requirement: |
   Фильтрация должна отображать только товары, цена которых не ниже заданной
 prerequisites: |
-  Открыта страница каталога товаров (https://hexlet-products-store.vercel.app/)
+  Открыта страница каталога товаров 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Минимальная цена: 1000
 steps:
@@ -54,7 +58,8 @@ summary: |
 requirement: |
   Фильтрация должна отображать только товары, цена которых не выше заданной
 prerequisites: |
-  Открыта страница каталога товаров (https://hexlet-products-store.vercel.app/)
+  Открыта страница каталога товаров 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Максимальная цена: 2500
 steps:
@@ -81,7 +86,8 @@ summary: |
 requirement: |
   Пользователь должен иметь возможность добавлять товар в корзину
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Любой товар из каталога
 steps:
@@ -97,7 +103,8 @@ requirement: |
   У пользователя есть возможность добавлять в корзину любое
   количество товаров (например 3 товара) 
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Выбрать и добавить товары = корзина
 steps:
@@ -110,7 +117,8 @@ summary: |
 requirement: |
   У пользователя есть возможность добавлять несколько разных товаров в корзину
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Выбрать и добавить товары = корзина
 steps:
@@ -123,7 +131,8 @@ summary: |
 requirement: |
   У пользователя есть возможность удалять товар из корзину 
 prerequisites: |
-  Пользователь находится в "Корзине", в которой есть товар (https://hexlet-products-store.vercel.app/cart)
+  Пользователь находится в "Корзине", в которой есть товар 
+  (https://hexlet-products-store.vercel.app/cart)
 test-data: |
   Товар = корзина
 steps:
@@ -165,7 +174,8 @@ summary: |
 requirement: |
   Пользователь должен иметь возможность оформить заказ
 prerequisites: |
-  Пользователь находится в корзине с товарами (https://hexlet-products-store.vercel.app/cart)
+  Пользователь находится в корзине с товарами 
+  (https://hexlet-products-store.vercel.app/cart)
 test-data: |
   Товары в корзине = оформление заказа
 steps:
@@ -190,7 +200,8 @@ summary: |
 requirement: |
   Сайт интернет-магазина должен корректно отображаться в разных браузерах
 prerequisites: |
-  Пользователь находится на сайте интернет-магазина (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на сайте интернет-магазина 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Сайт интернет-магазина = браузеры (Chrome, Firefox, Safari)
 steps:
@@ -216,7 +227,8 @@ summary: |
 requirement: |
   Сайт интернет-магазина должен использовать HTTPS для шифрования данных
 prerequisites: |
-  Пользователь должен находится на сайте интернет-магазина (https://hexlet-products-store.vercel.app/)
+  Пользователь должен находится на сайте интернет-магазина 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Адресная строка интернет-магазина = безопастность 
 steps:
@@ -228,7 +240,8 @@ summary: |
 requirement: |
   Фильтрация должна отображать только, товары которые в наличие
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Фильтр "В наличии"
 steps:
@@ -240,7 +253,8 @@ summary: |
 requirement: |
   Должны отображаться товары согласно выбранным категориям
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Навигация = каталог
 steps:
@@ -253,7 +267,8 @@ requirement: |
   На странице товара должно отображаться: название товара, рейтинг, цена со
   скидкой и без нее.
 prerequisites: |
-  Пользователь находится на странице товара (https://hexlet-products-store.vercel.app/products/2)
+  Пользователь находится на странице товара 
+  (https://hexlet-products-store.vercel.app/products/2)
 test-data: |
   Товар = информация о товаре
 steps:
@@ -266,7 +281,8 @@ summary: |
 requirement: |
   По клику на хэштег должен произойти переход в категорию
 prerequisites: |
-  Пользователь находится на странице товара (https://hexlet-products-store.vercel.app/products/2)
+  Пользователь находится на странице товара 
+  (https://hexlet-products-store.vercel.app/products/2)
 test-data: |
   Хэштег
 steps:
@@ -279,7 +295,8 @@ requirement: |
   В русскоязычной версии интернет-магазина описание товаров должно быть
   представлено на русском языке.
 prerequisites: |
-  Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
+  Пользователь находится на странице "Все товары" 
+  (https://hexlet-products-store.vercel.app/)
 test-data: |
   Перевод описания товаров
 steps:
