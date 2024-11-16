@@ -10,7 +10,7 @@
   status: fail
 - summary: |
     Проверка фильтрации товаров по минимальной цене
-  status: pass 
+  status: fail 
 - summary: |
     Проверка фильтрации товаров по максимальной цене
   status: pass 
