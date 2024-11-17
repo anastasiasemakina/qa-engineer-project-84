@@ -168,9 +168,7 @@ bugreports:
     expected-result: |
       В общем каталоге должны быть товары из других категорий
     actual-result: |
-      В общем каталоге нет товаров из этих категорий: laptops, mens-shirts,mens-shoes, mens-watches, mobile-accessories, motorcycle, skin-care, 
-    smartphones, sports-accessories, sunglasses, tablets, tops, vehicle, womens-bags, womens-dresses, womens-jewellery, womens-shoes,
-    womens-watches
+      В общем каталоге нет товаров из этих категорий: laptops, mens-shirts,mens-shoes, mens-watches, mobile-accessories, motorcycle, skin-care, smartphones, sports-accessories, sunglasses, tablets, tops, vehicle, womens-bags, womens-dresses, womens-jewellery, womens-shoes, womens-watches
   - summary: |
       Некорректное отображение сайта в декстопной версии
     environment: |
