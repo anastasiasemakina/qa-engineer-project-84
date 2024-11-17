@@ -14,7 +14,7 @@ test-cases:
     status: fail
   - summary: |
       Проверка фильтрации товаров по максимальной цене
-    status: fail (баг репорт) НАПИСАЛА
+    status: fail 
   - summary: |
       Поиск по несуществующему слову 
     status: fail 
@@ -44,10 +44,10 @@ test-cases:
     status: fail
   - summary: |
       Корректное отображение сайта интернет-магазина в декстопной версии
-    status: fail (написать баг репорт)
+    status: fail 
   - summary: |
       Проверка корректного отображения сайта с мобильного устройства
-    status: fail (написать баг репорт) увеличен масштаб изоображений
+    status: fail 
   - summary: |
       Проверка использования HTTPS 
     status: pass
@@ -62,7 +62,7 @@ test-cases:
     status: pass
   - summary: |
       Проверка перехода по хэштегу в категорию товара
-    status: fail (написать баг репорт kitchen-accessories)
+    status: fail 
   - summary: |
       Проверка описания товаров в русскоязычной версии сайта
     status: fail
