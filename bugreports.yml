@@ -13,22 +13,18 @@
     На главной странице каталога не отображатся товары из других категорий, поиск товаров отображает только с главной страницы каталога
     
 - summary: |
-    Не отображаются все категории в выпадающем списке фильтра
+    Неполный список категорий в выпадающем фильтре
   environment: |
     Google Chrome   129.0.6668.101 (Официальная сборка) (arm64)
     mac OS Sonoma 14.5
   steps-to-reproduce: |
     1. Открыть страницу каталога товаров (https://hexlet-products-store.vercel.app/)
     2. Нажать на выпадающий список фильтра "Категория"
-    3. Просмотреть доступные категории
+    3. Проверить полный список доступных категорий
   expected-result: |
-    В выпадающем списке отображаются категории: home-decoration, kitchen-accessories, laptops, mens-shirts,mens-shoes, mens-watches, mobile-accessories, motorcycle, skin-care, 
-    smartphones, sports-accessories, sunglasses, tablets, tops, vehicle, womens-bags, womens-dresses, womens-jewellery, womens-shoes,
-    womens-watches
+    В выпадающем списке длжны отображаться категории: beauty, fragrances, furniture, groceries, home-decoration, kitchen-accessories, laptops, mens-shirts, mens-shoes, mens-watches, mobile-accessories, motorcycle, skin-care, smartphones, sports-accessories, sunglasses, tablets, tops, vehicle, womens-bags, womens-dresses, womens-jewellery, womens-shoes, womens-watches
   actual-result: |
-    В выпадающем списке отсутствуют категории: home-decoration, kitchen-accessories, laptops, mens-shirts,mens-shoes, mens-watches, mobile-accessories, motorcycle, skin-care, 
-    smartphones, sports-accessories, sunglasses, tablets, tops, vehicle, womens-bags, womens-dresses, womens-jewellery, womens-shoes,
-    womens-watches
+    В выпадающем списке отсутствуют категории: home-decoration, kitchen-accessories, laptops, mens-shirts,mens-shoes, mens-watches, mobile-accessories, motorcycle, skin-care, smartphones, sports-accessories, sunglasses, tablets, tops, vehicle, womens-bags, womens-dresses, womens-jewellery, womens-shoes, womens-watches
     
 - summary: |
     Некорректная фильтрация товаров по диапозону цен
