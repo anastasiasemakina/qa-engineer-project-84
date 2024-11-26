@@ -208,7 +208,7 @@ bugreports:
       Отсутствуют флаги для русского и английского языков в селекторе языка
     environment: |
       Google Chrome 129.0.6668.101 (Официальная сборка) (arm64)
-     macOS Sonoma 14.5
+      macOS Sonoma 14.5
     steps-to-reproduce: |
       1. Открыть главную страницу интернет-магазина (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/)
       2. Найти селектор выбора языка 
